@@ -163,12 +163,12 @@ a[href^="tel:"] {
 sss * {
   -webkit-text-size-adjust: none;
 }
-body {
+/*body {
   position: relative;
   background: #323045;
   color: #585555;
   font: 14px/20px 'Open Sans', sans-serif;
-}
+}*/
 .ic {
 	border:0;
 	float:right;

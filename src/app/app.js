@@ -3,6 +3,8 @@ angular.module( 'zavo', [
   'templates-common',
   'zavo.home',
   'zavo.about',
+  'zavo.trips',
+  'zavo.recipes',
   'ngRoute'
 ])
 
@@ -13,6 +15,8 @@ angular.module( 'zavo', [
     $routeProvider.when('/', { templateUrl: 'home/home.tpl.html', controller: 'homeCtrl' });
     $routeProvider.when('/about', { templateUrl: 'about/about.tpl.html', controller: 'aboutCtrl' });
     $routeProvider.when('/home', { templateUrl: 'home/home.tpl.html', controller: 'homeCtrl' });
+    $routeProvider.when('/trips', { templateUrl: 'trips/trips.tpl.html', controller: 'tripsCtrl' });
+    $routeProvider.when('/recipes', { templateUrl: 'recipes/recipes.tpl.html', controller: 'recipesCtrl' });
     
     $routeProvider.otherwise({
       redirectTo: '/404'
